@@ -29,7 +29,7 @@ export function Leetcode() {
               interviews.
             </p>
             <p className="text-center text-lg text-gray-600 dark:text-gray-300">
-              I've completed <strong>500+</strong> problems across a variety of topics,
+              I've completed <strong>600+</strong> problems across a variety of topics,
               including arrays, trees, graphs, and dynamic programming. My goal
               is to keep improving and stay consistent in learning and solving
               new problems daily.

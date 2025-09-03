@@ -15,16 +15,31 @@ interface Certification {
 
 const certifications: Certification[] = [
   {
+    title: "Flipkart GRID 7.0 - National Semi-Finalist",
+    issuer: "Flipkart",
+    date: "Sept 2025",
+    image: "/assets/flipkart-grid.png",
+  },
+  {
+    title: "Adobe India Hackathon - Participant",
+    issuer: "Adobe",
+    date: "2025",
+    image:
+      "https://d8it4huxumps7.cloudfront.net/lambda-pdfs/certificate-images/6035b3b4-691f-4200-a08e-7270f785a0e1.jpg",
+  },
+  {
     title: "Flipkart Runway: Season 4 - Online Quiz",
     issuer: "Flipkart",
     date: "Apr 2024",
-    image: "https://d8it4huxumps7.cloudfront.net/lambda-pdfs/certificate-images/67e12331-5e73-455d-9246-531cd70dc22b.jpg",
+    image:
+      "https://d8it4huxumps7.cloudfront.net/lambda-pdfs/certificate-images/67e12331-5e73-455d-9246-531cd70dc22b.jpg",
   },
   {
     title: "Unstop Talent Park - Tech (MCQ + Coding Assessment)",
     issuer: "Unstop",
     date: "Sept 2024",
-    image: "https://d8it4huxumps7.cloudfront.net/lambda-pdfs/certificate-images/f1080076-6885-41bd-92b0-72eddb6c42e7.jpg",
+    image:
+      "https://d8it4huxumps7.cloudfront.net/lambda-pdfs/certificate-images/f1080076-6885-41bd-92b0-72eddb6c42e7.jpg",
   },
 ];
 
@@ -36,8 +51,9 @@ export function Certifications() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1500,
+    autoplaySpeed: 2000,
     pauseOnHover: true,
+    arrows: true,
     responsive: [
       { breakpoint: 1024, settings: { slidesToShow: 2 } },
       { breakpoint: 768, settings: { slidesToShow: 1 } },
@@ -51,7 +67,13 @@ export function Certifications() {
         <Slider {...settings} className="max-w-6xl mx-auto">
           {certifications.map((cert) => (
             <div key={cert.title} className="px-4">
-              <CertificationCard {...cert} />
+              <CertificationCard
+                title={cert.title}
+                issuer={cert.issuer}
+                date={cert.date}
+                image={cert.image}
+                link={cert.link} // ✅ now passes link safely
+              />
             </div>
           ))}
         </Slider>

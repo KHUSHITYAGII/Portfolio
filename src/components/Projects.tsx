@@ -6,18 +6,11 @@ const projects = [
   {
     title: 'City-Connect',
     description: 'City Connect is a smart city service platform designed to simplify communication between citizens and municipal departments.',
-    image: '/assets/notesneo.png',
+    image: '/assets/city-connect.png',
     link: 'https://city-connect-sitee.netlify.app/',
     tags: ['React.js', 'Node.js', 'Express','MongoDB'],
    },
-  {
-    title: 'OA Generator',
-    description: 'A robust, full stack online assessment platform for coding evaluations. Includes full screen enforcement, real time violation detection, tab-switch prevention and secure test submission.',
-    image: '/assets/oagen.png', // You'll need to add this image
-    link: 'https://oagen.netlify.app/',
-    tags: ['React.js', 'Custom State Management', 'Real-time Monitoring', 'Security Features'],
-  },
-  {
+   {
     title: 'Lintelligence',
     description: 'AI-powered code reviewer using Google Gemini API. Provides lexical analysis, error detection, bug identification, code quality assessment, and code transparency insights for comprehensive code analysis.',
     image: '/assets/lintelligence.png', // You'll need to add this image
@@ -30,6 +23,13 @@ const projects = [
     image: '/assets/code-transpiler.png', // You'll need to add this image
     link: 'https://code-transpilerrr.netlify.app/', // Add your project link here
     tags: ['Python', 'Flask', 'Code Transpiler', 'Python to C', 'Python to Java'],
+  },
+  {
+    title: 'OA Generator',
+    description: 'A robust, full stack online assessment platform for coding evaluations. Includes full screen enforcement, real time violation detection, tab-switch prevention and secure test submission.',
+    image: '/assets/oagen.png', // You'll need to add this image
+    link: 'https://oagen.netlify.app/',
+    tags: ['React.js', 'Custom State Management', 'Real-time Monitoring', 'Security Features'],
   },
   {
     title: 'Drowsiness Detection',
