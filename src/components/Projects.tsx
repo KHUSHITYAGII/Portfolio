@@ -5,24 +5,45 @@ import { ProjectCard } from './ui/ProjectCard';
 const projects = [
   {
     title: 'City-Connect',
-    description: 'Bridging the gap between citizens and authorities for smarter cities; reached prefinals of Smart India Hackathon.',
+    description: 'City Connect is a smart city service platform designed to simplify communication between citizens and municipal departments.',
     image: '/assets/notesneo.png',
-    link: 'https://smartcityconnect.netlify.app/',
-    tags: ['React.js', 'Node.js', 'Express','MongoDB'], 
+    link: 'https://city-connect-sitee.netlify.app/',
+    tags: ['React.js', 'Node.js', 'Express','MongoDB'],
+   },
+  {
+    title: 'OA Generator',
+    description: 'A robust, full stack online assessment platform for coding evaluations. Includes full screen enforcement, real time violation detection, tab-switch prevention and secure test submission.',
+    image: '/assets/oagen.png', // You'll need to add this image
+    link: 'https://oagen.netlify.app/',
+    tags: ['React.js', 'Custom State Management', 'Real-time Monitoring', 'Security Features'],
+  },
+  {
+    title: 'Lintelligence',
+    description: 'AI-powered code reviewer using Google Gemini API. Provides lexical analysis, error detection, bug identification, code quality assessment, and code transparency insights for comprehensive code analysis.',
+    image: '/assets/lintelligence.png', // You'll need to add this image
+    link: 'https://lintelligencee.netlify.app/', // Add your project link here
+    tags: ['React.js', 'Tailwind CSS', 'Google Gemini API', 'Code Analysis'],
+  },
+  {
+    title: 'Code Transpiler',
+    description: 'Intelligent code transpilation tool that seamlessly converts code from Python to C and Python to Java. Built with Flask backend to provide efficient cross-language code conversion.',
+    image: '/assets/code-transpiler.png', // You'll need to add this image
+    link: 'https://code-transpilerrr.netlify.app/', // Add your project link here
+    tags: ['Python', 'Flask', 'Code Transpiler', 'Python to C', 'Python to Java'],
   },
   {
     title: 'Drowsiness Detection',
     description: 'AI-powered system that detects driver drowsiness in real time using facial landmarks.',
     image: '/assets/sleep.jpg',
-    tags: ['Machine Learning', 'PostgreSQL','Opencv','Python'],
-
-
+    link:'https://github.com/KHUSHITYAGII/Drowsiness-Detection',
+    tags: ['Machine Learning', 'PostgreSQL','OpenCV','Python'],
   },
   {
     title: 'Py-Game',
     description: 'An engaging Python-based game designed to spread autism awareness among kids.',
     image: '/assets/pygame.jpg',
-    tags: ['Python','PY-Game'],
+    link:'https://github.com/KHUSHITYAGII/PY-GAMEE',
+    tags: ['Python','Pygame'],
   },
 ];
 
